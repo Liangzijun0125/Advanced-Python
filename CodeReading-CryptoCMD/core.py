@@ -65,7 +65,8 @@ class CmcScraper(object):
             self.coin_code, self.start_date, self.end_date, self.all_time
         )
 
-    def _download_data(self, **kwargs):             #当函数的参数不确定时，可以使用*args 和**kwargs，*args 没有key值，**kwargs有key值。**kw是关键字参数，用于字典
+    def _download_data(self, **kwargs):             
+        #当函数的参数不确定时，可以使用*args 和**kwargs，*args 没有key值，**kwargs有key值。**kw是关键字参数，用于字典
         """
         This method downloads the data.
         :param forced: (optional) if ``True``, data will be re-downloaded.
@@ -86,7 +87,8 @@ class CmcScraper(object):
         self.end_date, self.start_date, self.headers, self.rows = extract_data(table)
 
         if self.order_ascending:
-            self.rows.sort(key=lambda x: datetime.strptime(x[0], "%d-%m-%Y"))    #Python time strptime() 函数根据指定的格式把一个时间字符串解析为时间元组。
+            self.rows.sort(key=lambda x: datetime.strptime(x[0], "%d-%m-%Y"))    
+            #Python time strptime() 函数根据指定的格式把一个时间字符串解析为时间元组。
 
     def get_data(self, verbose=False, **kwargs):
 
@@ -112,10 +114,11 @@ class CmcScraper(object):
         #如果不print DataFrame，就看不到这些数据，
         """
         This gives scraped data as DataFrame.
-        :param date_as_index: make 'Date' as index and remove 'Date' column.   #时间成为了索引，索引(index)就是每一行数据的id,可以标识每一行的唯一值
+        :param date_as_index: make 'Date' as index and remove 'Date' column.   
         :param kwargs: Optional arguments that data downloader takes.
         :return: DataFrame of the downloaded data.
         """
+        #时间成为了索引，索引(index)就是每一行数据的id,可以标识每一行的唯一值
 
         try:
             import pandas as pd
