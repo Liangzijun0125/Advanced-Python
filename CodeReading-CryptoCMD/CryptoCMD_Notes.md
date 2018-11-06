@@ -24,7 +24,7 @@
    记录代码版本<br/>
    ***
    - core.py & utils.py <br/>
-   核心代码，实现从<https://coinmarketcap.com>抓取货币历史数据<br/>
+   核心代码，实现从<https://coinmarketcap.com>抓取货币历史数据并生成文件<br/>
    这部分的笔记会在代码注释中写出<br/>
    ***
 3. examples<br/>
