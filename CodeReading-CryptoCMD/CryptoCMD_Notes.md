@@ -46,7 +46,7 @@
    ***
 7. MANIFEST.IN<br/>
    ***
-   用于包含其他文件（READNE,LICENSE,requirements）；<br/>
+   用于包含其他文件（README,LICENSE,requirements）；<br/>
    ***
 8. Pipfile & Pipfile.lock <br/>
    ***
