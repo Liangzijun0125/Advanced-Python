@@ -1,2 +1,2 @@
-#README
-Word Sort存放词频统计作业代码
+
+**Word Sort**存放词频统计作业代码
