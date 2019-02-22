@@ -2,11 +2,24 @@
 # 项目总览
 ---
 ## 1.文件构成：
-文件名|文件内容
---|--|--
-Baidu_Parse.py|主程序
-Stopwords.txt|停用词文档
-References.md|参考文章
+<table border = "1">
+ <tr>
+<th>文件名</th>
+<th>文件内容</th>   
+</tr>
+<tr>
+ <td>Baidu_Parse.py</td>
+ <td>主程序</td>   
+</tr>
+<tr>
+ <td>Stopwords.txt</td>
+ <td>停用词文档</td>
+</tr>
+ <tr>
+ <td>References.md</td>
+ <td>参考文章</td>
+ </tr>
+ </table>
 ---
 
 ## 2.项目简介
