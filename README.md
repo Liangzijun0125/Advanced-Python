@@ -17,6 +17,10 @@
     <td>期末项目</td>
   </tr>
   <tr>
+    <td>Numpy Exercise</td>
+    <td>Numpy编程练习</td>
+  </tr>
+  <tr>
     <td>Python Basics</td>
     <td>Python基础编程练习</td>
   </tr>
